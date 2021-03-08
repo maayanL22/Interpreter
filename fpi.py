@@ -1181,7 +1181,7 @@ class Interpreter(NodeVisitor):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='SPI - Simple Pascal Interpreter'
+        description='Pascal Interpreter'
     )
     parser.add_argument('inputfile', help='Pascal source file')
     parser.add_argument(
